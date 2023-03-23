@@ -1,0 +1,39 @@
+.principal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
+.semana{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--escurecido);
+    padding: 3em;
+    border-radius: 2em;
+}
+.dia {
+    display: flex;
+    flex-direction: column;
+}
+.dia__nome {
+    font-weight: 700;
+}
+.dia__input {
+    padding: 0.5em 1em; 
+}
+.botao{
+    padding: 1em 2em;
+    background-color: wheat;
+    border: none;
+    box-shadow: 0 0 0.5em var(--sombra);
+    font-weight: 700;
+}
+.botao:hover{
+    transition: 600ms;
+    cursor: pointer;
+    box-shadow: 0 0 1em var(--sombra);
+}

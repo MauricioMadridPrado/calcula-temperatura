@@ -1,0 +1,12 @@
+@import url("./pagina.css");
+@import url("./formulario.css");
+@import url("./resultado.css");
+:root {
+    --escurecido:rgba(0,0,0,0.1);
+    --sombra:rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

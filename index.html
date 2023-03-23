@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Verifica temperatura</title>
+</head>
+
+<body>
+    <main class="principal">
+        <form class="semana" id="semana">
+            <div class="semana__container" id="semana__container">
+
+            </div>
+            <div id="botao__semana" class="botao__semana">
+                <button class="botao" id="botao">Verificar</button>
+            </div>
+        </form>
+
+        <section class="resultados">
+
+            <div id="resultado__container" class="resultado__container">
+                <h2 id="resultado__texto" class="resultado__texto"><span class="reultado__valor"
+                        id="reultado__valor__maior"></span></h2>
+                <h2 id="resultado__texto" class="resultado__texto"><span class="reultado__valor"
+                        id="reultado__valor__menor"></span></h2>
+                <h2 id="resultado__texto" class="resultado__texto"><span class="reultado__valor"
+                        id="reultado__valor"></span></h2>
+            </div>
+
+
+        </section>
+    </main>
+
+    <script src="./app/montaLista.js"></script>
+    <script src="./app/captura.js"></script>
+    <script src="./app/manipulaTemperatura.js"></script>
+    <script src="./app/apresenta.js"></script>
+    <script src="./app/reseta.js"></script>
+
+</body>
+
+</html>
